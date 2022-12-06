@@ -1,11 +1,46 @@
 
+* {
+    box-sizing: border-box;
+}
 
-html {
+html, body {
+    margin: 0;
+    padding: 0;
     background-color: green;
 }
 
+.nav {
+    text-align: center;
+}
+
+.nav ul {
+    margin: 0;
+}
+
+.nav li {
+    display: inline;
+    padding: 0 2%;
+}
+
+.nav a {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.nav a:hover {
+    background-color: rgba(255, 255, 255, .3);
+}
+
+.main-nav {
+    text-align: center;
+    font-size: 1.1em;
+    border-bottom: 1px solid rgba(255, 255, 255, .3);
+}
+
 .main-header {
+    color: white;
     text-align: center;
     text-transform: uppercase;
-    color: white;
 }
