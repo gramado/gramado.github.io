@@ -1,5 +1,5 @@
 
-    This webpage is based on a template called Freelancer.
+    This webpage is based on a free template called Freelancer.
 
     Freelancer is a flat design, one page Bootstrap portfolio theme 
 perfect for freelancer portfolios, or any other one page website.
