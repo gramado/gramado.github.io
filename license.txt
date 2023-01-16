@@ -1,0 +1,11 @@
+
+    This webpage is based on a template called Freelancer.
+
+    Freelancer is a flat design, one page Bootstrap portfolio theme 
+perfect for freelancer portfolios, or any other one page website.
+
+License: MIT License
+Product: Version 7.0.6
+Bootstrap Version: 5.1.3
+Source: https://startbootstrap.com/theme/freelancer
+
