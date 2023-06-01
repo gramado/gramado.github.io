@@ -6,7 +6,7 @@
 html, body {
     margin: 0;
     padding: 0;
-    background-color: green;
+    background-color: #69A583;
 }
 
 .nav {
@@ -34,9 +34,10 @@ html, body {
 }
 
 .main-nav {
+    border-top: 2px solid rgba(255, 255, 255, .3);
     text-align: center;
     font-size: 1.1em;
-    border-bottom: 1px solid rgba(255, 255, 255, .3);
+    border-bottom: 2px solid rgba(255, 255, 255, .3);
 }
 
 .main-header {
