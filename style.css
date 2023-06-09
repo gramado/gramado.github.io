@@ -57,6 +57,18 @@ html, body {
     margin: 0;
 }
 
+.main-img {
+    text-align: center;
+}
+
+.text-section {
+    text-align: center;
+}
+
+.back-to-top {
+    text-align: center;
+}
+
 .footer-copyright {
     text-align: center;
 }
