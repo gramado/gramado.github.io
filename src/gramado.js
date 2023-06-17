@@ -3,8 +3,7 @@ let __gramado_status = 0;
 
 function gramadoInitialize(){
     let ReturnValue=1234;
-    console.log("Initializing Gramado ...")
-    gramadoHelloWorld();
+    console.log("Initializing Gramado ...");
     __gramado_status = 1;
     return ReturnValue;
 }
