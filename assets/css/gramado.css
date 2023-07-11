@@ -1,2 +1,88 @@
 
-#todo: This is a work in progress.
+/*
+ * gramado.css minimalist css library.
+ * Created by Fred Nora.
+ * (This is a work in progress)
+ */
+
+/*
+ * Library components:
+ *   + 1) Global scope. (main html elements)
+ *   + 2) .gramado-nav class. (Navigation bar)
+ *   + 3) .gramado-header class. (Main header)
+ *   + 4) .gramado-footer class. (Main footer)
+ *   + 5) .gramado-button class. (Buttons)
+ *   + ...
+ *   + last) @media queries. (Responsive design).
+ */
+
+
+/*
+ * Component: 
+ *     Global scope.
+ */
+
+html {
+    margin: 0;
+    padding: 0;
+    background-color: #FFFFFF;
+}
+head {
+}
+body {
+}
+
+/* 
+ * ------------------------------------------------------
+ * Component: 
+ *     .gramado-nav (Navigation bar) 
+ */
+
+.gramado-nav {
+    margin: 0;
+}
+/* Unordered list */
+.gramado-nav ul {
+    margin: 0;
+}
+.gramado-nav li {
+}
+
+/* 
+ * ------------------------------------------------------
+ * Component: 
+ *     .gramado-header class. Main header 
+ */
+.gramado-header {
+
+}
+
+
+/*
+ * ------------------------------------------------------ 
+ * Component: 
+ *     .gramado-footer Footer.
+ */
+ .gramado-footer {
+
+ }
+
+/*
+ * ------------------------------------------------------
+ * Component: button 
+ */
+
+.gramado-button {
+
+}
+
+/*
+ * ------------------------------------------------------
+ * Component: Media queries. 
+ */
+
+
+
+
+
+
