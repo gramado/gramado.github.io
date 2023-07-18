@@ -1,7 +1,7 @@
 
 class GramadoClass {
     constructor (s){
-        console.log("Gramado: ");
+        console.log("GramadoClass: constructor()");
         console.log(s);
     }
     printString(s){
