@@ -39,6 +39,11 @@ html, body {
     text-transform: uppercase;
 }
 
+.gramado-text {
+    text-align: center;
+    /*text-transform: uppercase;*/
+}
+
 
 /*
  * ------------------------------------------------------ 
@@ -111,6 +116,7 @@ html, body {
 }
 
 .gramado-image {
+    text-align: center;
     width: 75%;
     height: auto;
 }
@@ -121,34 +127,34 @@ html, body {
 @media (min-width: 1024px) {
 
 /* Navigation bar */
-.nav {
+.gramado-nav {
     text-align: center;
 }
-.nav ul {
+.gramado-nav ul {
     margin: 0;
 }
-.nav li {
+.gramado-nav li {
     display: inline;
     padding: 0 2%; /*distancia entre os items*/
 }
-.nav a {
+.gramado-nav a {
     color: #808080;
     text-decoration: none;
     text-transform: uppercase;
     display: inline-block;
 }
-.nav a:hover {
+.gramado-nav a:hover {
     background-color: rgba(255, 255, 255, .7); /*White*/
 }
-.main-nav {
+.gramado-main-nav {
     font-size: 1.1em;
     text-align: center;
     border-top: 2px solid rgba(200, 200, 200, .3);
     border-bottom: 2px solid rgba(200, 200, 200, .3);
 }
 
-
-.main-image {
+.gramado-image {
+    text-align: center;
     width: 50%;
     height: auto;
 }
