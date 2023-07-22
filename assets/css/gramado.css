@@ -37,6 +37,13 @@ html, body {
 .gramado-button {
     text-align: center;
 }
+.gramado-image-container {
+    text-align: center;
+}
+.gramado-image {
+    width: 75%;
+    height: auto;
+}
 .gramado-footer {
     text-align: center;
     color: #C0C0C0;
