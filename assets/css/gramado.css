@@ -111,13 +111,15 @@ a:hover {
     margin: 0;
 }
 .gramado-nav li {
+    width: fit-content;
     text-align: center;
     display: block;
+    padding: 0.4% 0.2% 0.2% 0.2%;
 }
 .gramado-nav a {
+    text-align: center;
     text-decoration: none;
     text-transform: uppercase;
-    text-align: center;
     color: #808080;
     display: inline-block;
 }
@@ -133,9 +135,10 @@ a:hover {
     font-size: 2.0vw;
 }
 .gramado-footer {
-    font-size: 1.0vw;
+    font-size: 1.5vw;
     text-align: center;
     color: #C0C0C0;
+    padding-bottom: 2%;
 }
 }
 
