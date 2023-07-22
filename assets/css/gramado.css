@@ -7,15 +7,13 @@
 
 /*
  * Library components:
- *   + 1) Global scope. (main html elements)
- *   + 2) .gramado-nav class. (Navigation bar)
- *   + 3) .gramado-header class. (Main header)
- *   + 4) .gramado-footer class. (Main footer)
- *   + 5) .gramado-button class. (Buttons)
+ *   + ) Global scope. (main html elements)
+ *   + ) .gramado-nav class. (Navigation bar)
+ *   + ) .gramado-header class. (Main header)
+ *   + ) .gramado-button class. (Buttons)
  *   + ...
- *   + last) @media queries. (Responsive design).
+ *   + ) .gramado-footer class. (Main footer)
  */
-
 
 /*
  * Component: 
@@ -28,40 +26,20 @@ html, body {
     background-color: #F2EFEF;
 }
 
-/* 
- * ------------------------------------------------------
- * Component: 
- *     .gramado-header class. Main header 
- */
 .gramado-header {
-    color: #D73B60;
     text-align: center;
     text-transform: uppercase;
+    color: #D73B60;
 }
-
 .gramado-text {
     text-align: center;
-    /*text-transform: uppercase;*/
 }
-
-
-/*
- * ------------------------------------------------------ 
- * Component: 
- *     .gramado-footer Footer.
- */
-.gramado-footer {
-    color: #C0C0C0;
-    text-align: center;
-}
-
-/*
- * ------------------------------------------------------
- * Component: button 
- */
-
 .gramado-button {
     text-align: center;
+}
+.gramado-footer {
+    text-align: center;
+    color: #C0C0C0;
 }
 
 /*
@@ -71,99 +49,87 @@ html, body {
 
 /* MEDIA QUERY */
 
-/* small */
+/* small screen */
 @media (min-width: 200px) and (max-width: 1023px ) {
 
+/* navigation bar for small screens */
 .gramado-nav {
-    /*display: none;*/
-    /*max-height: none;*/
-    /*top: 0;*/
-    /*position: relative;*/
-    /*float: left;*/
-    width: fit-content;
-    background-color: transparent;
-    width: 100%;
-    text-align: center;
-}
-.gramado-nav ul {
-    width: 100%;
-    margin: 0;
-    text-align: center;
-}
-.gramado-nav li {
-    width: 100%;
-    display: block;
-    /*padding: 0 2%;*/
-    text-align: center;
-}
-.gramado-nav a {
-    color: #808080;
-    text-decoration: none;
-    text-transform: uppercase;
-    display: inline-block;
-    text-align: center;
-}
-.gramado-nav a:hover {
-    background-color: rgba(255, 255, 255, .7); /*white*/
-    text-align: center;
-}
-/*??*/
-.gramado-main-nav {
-    font-size: 1.1em;
-    text-align: center;
+    font-size: 4.0vw;
     border-top: 2px solid rgba(200, 200, 200, .3);
     border-bottom: 2px solid rgba(200, 200, 200, .3);
 }
-
-.gramado-image {
+.gramado-nav ul {
     text-align: center;
-    width: 75%;
-    height: auto;
+    margin: 0;
+}
+.gramado-nav li {
+    text-align: center;
+    display: block;
+}
+.gramado-nav a {
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    color: #808080;
+    display: inline-block;
+}
+.gramado-nav a:hover {
+    text-align: center;
+    background-color: rgba(255, 255, 255, .7);
 }
 
+.gramado-header{
+    font-size: 4.0vw;
+}
+.gramado-text{
+    font-size: 2.0vw;
+}
+.gramado-footer {
+    font-size: 1.0vw;
+    text-align: center;
+    color: #C0C0C0;
+}
 }
 
-/* large */
+
+/* large screen */
 @media (min-width: 1024px) {
 
-/* Navigation bar */
+/* navigation bar for large screens */
 .gramado-nav {
-    text-align: center;
-}
-.gramado-nav ul {
-    margin: 0;
-}
-.gramado-nav li {
-    display: inline;
-    padding: 0 2%; /*distancia entre os items*/
-}
-.gramado-nav a {
-    color: #808080;
-    text-decoration: none;
-    text-transform: uppercase;
-    display: inline-block;
-}
-.gramado-nav a:hover {
-    background-color: rgba(255, 255, 255, .7); /*White*/
-}
-.gramado-main-nav {
-    font-size: 1.1em;
-    text-align: center;
+    font-size: 2.0vw;
     border-top: 2px solid rgba(200, 200, 200, .3);
     border-bottom: 2px solid rgba(200, 200, 200, .3);
 }
-
-.gramado-image {
+.gramado-nav ul {
     text-align: center;
-    width: 50%;
-    height: auto;
+    margin: 0;
+}
+.gramado-nav li {
+    text-align: center;
+    display: inline;
+    padding: 0 2%;
+}
+.gramado-nav a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #808080;
+    display: inline-block;
+}
+.gramado-nav a:hover {
+    background-color: rgba(255, 255, 255, .7); 
 }
 
+.gramado-header{
+    font-size: 1.0vw;
 }
-
-
-
-
-
-
+.gramado-text{
+    font-size: 0.9vw;
+}
+.gramado-footer {
+    font-size: 0.8vw;
+    text-align: center;
+    color: #C0C0C0;
+}
+}
 
