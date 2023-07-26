@@ -13,7 +13,7 @@ let __gramado_status = 0;
 
 function gramadoInitialize(){
     let ReturnValue=1234;
-    console.log("Initializing Gramado ...");
+    console.log("gramadoInitialize: Initializing ...");
 
 // Creating the Gramado class.
     Gramado = new GramadoClass("Initializing GramadoClass...");
@@ -25,6 +25,8 @@ function gramadoInitialize(){
     //arrowFunction4();
 
     __gramado_status = 1;
+
+// 1234
     return ReturnValue;
 }
 
@@ -35,7 +37,18 @@ function gramadoHelloWorld(){
     }else{
         window.alert("Not initialized");
     }
+    return __gramado_status;
 }
+
+function gramadoGetStatus(){
+    return __gramado_status;
+}
+
+function gramadoReloadPage(){
+    window.location.reload();
+}
+
+
 
 /* Learning ... */
 let arrowFunction1 = (x) => {
@@ -51,10 +64,6 @@ let arrowFunction3 = x => console.log(x)
 
 /* Learning ... */
 let arrowFunction4 = () => console.log("arrowFunction4: ")
-
-
-
-
 
 
 
