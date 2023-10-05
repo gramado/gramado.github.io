@@ -1,4 +1,6 @@
 
+// ------------------------
+// The Gramado class.
 class GramadoClass {
     constructor (s){
         console.log("GramadoClass: constructor()");
@@ -7,17 +9,21 @@ class GramadoClass {
     printString(s){
         console.log(s);
     }
+    //...
 };
 let Gramado;
 let __gramado_status = 0;
+// ------------------------
 
 function gramadoInitialize(){
-    let ReturnValue=1234;
+
+    let ReturnValue = 1234;
     console.log("gramadoInitialize: Initializing ...");
 
 // Creating the Gramado class.
-    Gramado = new GramadoClass("Initializing GramadoClass...");
+    Gramado = new GramadoClass("Creating the Gramado object.");
     Gramado.printString("Testing Gramado.printString method ...");
+    //...
 
     //arrowFunction1(1);
     //arrowFunction2(2);
@@ -30,6 +36,14 @@ function gramadoInitialize(){
     return ReturnValue;
 }
 
+function gramadoGetStatus(){
+    return __gramado_status;
+}
+
+function gramadoReloadPage(){
+    window.location.reload();
+}
+
 function gramadoHelloWorld(){
     console.log("Hello")
     if (__gramado_status == 1){
@@ -40,19 +54,18 @@ function gramadoHelloWorld(){
     return __gramado_status;
 }
 
-function gramadoGetStatus(){
-    return __gramado_status;
+// ---------------------------------------
+
+/* Learning ... */
+let arrowFunction0 = (x,y) => {
+    console.log("arrowFunction0:");
+    console.log(x);
+    console.log(y);
 }
-
-function gramadoReloadPage(){
-    window.location.reload();
-}
-
-
 
 /* Learning ... */
 let arrowFunction1 = (x) => {
-    console.log("arrowFunction1: ");
+    console.log("arrowFunction1:");
     console.log(x);
 }
 
@@ -63,7 +76,9 @@ let arrowFunction2 = (x) => console.log(x)
 let arrowFunction3 = x => console.log(x)
 
 /* Learning ... */
-let arrowFunction4 = () => console.log("arrowFunction4: ")
+let arrowFunction4 = () => console.log("arrowFunction4:")
+
+// -----
 
 
 
