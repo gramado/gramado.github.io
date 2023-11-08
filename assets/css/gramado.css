@@ -52,17 +52,62 @@ a:hover {
   color: #0050a3;
 }
 
-.gramado-header {
-    text-align: center;
-    text-transform: uppercase;
-    /*color: #D73B60;*/
-    color: #C0C0C0;
+
+/* 
+ * Small screen:
+ * Mobile first?
+ */
+
+/* navigation bar for small screens */
+.gramado-nav {
+    font-size: 4.0vw;
+    border-top: 2px solid rgba(88, 88, 88, .3);
+    border-bottom: 2px solid rgba(129, 129, 129, .3);
 }
-.gramado-text {
+.gramado-nav ul {
+    text-align: center;
+    margin: 0;
+}
+.gramado-nav li {
+    width: fit-content;
+    text-align: center;
+    display: block;
+    padding: 0.4% 0.2% 0.2% 0.2%;
+}
+.gramado-nav a {
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #808080;
+    display: inline-block;
+}
+.gramado-nav a:hover {
+    background-color: rgba(200, 200, 200, .6); 
+}
+
+.gramado-container {
     text-align: center;
 }
 
-/* Button */
+.gramado-header{
+    text-align: center;
+    text-transform: uppercase;
+    color: #C0C0C0;
+}
+
+.gramado-text{
+    font-size: 2.0vw;
+}
+
+.gramado-image {
+    width: 75%;
+    height: auto;
+}
+.gramado-image-container {
+    text-align: center;
+    border-top: 4px solid rgba(222, 222, 222, .3);
+}
+
 .gramado-button {
     text-align: center;
     color: #fff;
@@ -87,87 +132,28 @@ a:hover {
   color: #eee;
 }
 
-/* Container */
-.gramado-container {
-    text-align: center;
-}
-
-/* Image */
-.gramado-image {
-    width: 75%;
-    height: auto;
-}
-.gramado-image-container {
-    text-align: center;
-}
-
-.gramado-footer {
-    text-align: center;
-    color: #808080;
-}
-
-/*
- * ------------------------------------------------------
- * Component: Media queries. 
- */
-
-/* MEDIA QUERY */
-
-/* small screen */
-@media (min-width: 200px) and (max-width: 1023px ) {
-
-/* navigation bar for small screens */
-.gramado-nav {
-    font-size: 4.0vw;
-    border-top: 2px solid rgba(200, 200, 200, .3);
-    border-bottom: 2px solid rgba(200, 200, 200, .3);
-}
-.gramado-nav ul {
-    text-align: center;
-    margin: 0;
-}
-.gramado-nav li {
-    width: fit-content;
-    text-align: center;
-    display: block;
-    padding: 0.4% 0.2% 0.2% 0.2%;
-}
-.gramado-nav a {
-    text-align: center;
-    text-decoration: none;
-    text-transform: uppercase;
-    color: #404040;
-    display: inline-block;
-}
-.gramado-nav a:hover {
-    text-align: center;
-    background-color: rgba(255, 255, 255, .7);
-}
-
-.gramado-header{
-    font-size: 4.0vw;
-    color: #808080;
-}
-.gramado-text{
-    font-size: 2.0vw;
-}
 .gramado-footer {
     font-size: 1.5vw;
     text-align: center;
     color: #808080;
     padding-bottom: 2%;
 }
-}
+
+
+/*
+ * ------------------------------------------------------
+ * Component: Media queries. 
+ */
 
 
 /* large screen */
-@media (min-width: 1024px) {
+@media (min-width: 640px) {
 
 /* navigation bar for large screens */
 .gramado-nav {
     font-size: 2.0vw;
-    border-top: 2px solid rgba(200, 200, 200, .3);
-    border-bottom: 2px solid rgba(200, 200, 200, .3);
+    border-top: 2px solid rgba(80, 80, 80, .3);
+    border-bottom: 2px solid rgba(123, 123, 123, .3);
 }
 .gramado-nav ul {
     text-align: center;
@@ -181,26 +167,60 @@ a:hover {
 .gramado-nav a {
     text-decoration: none;
     text-transform: uppercase;
-    color: #404040;
+    color: #202020;
     display: inline-block;
 }
 .gramado-nav a:hover {
-    background-color: rgba(255, 255, 255, .7); 
+    background-color: rgba(200, 200, 200, .6); 
 }
 
 .gramado-header{
     font-size: 1.0vw;
-    color: #808080;
+    color: #202020;
 }
 .gramado-text{
     font-size: 0.9vw;
 }
+
+.gramado-image {
+    width: 75%;
+    height: auto;
+}
+.gramado-image-container {
+    text-align: center;
+    border-top: 4px solid rgba(222, 222, 222, .3);
+}
+
+.gramado-button {
+    text-align: center;
+    color: #fff;
+    background-color: #007bff;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom-color: rgba(0, 0, 0, 0.25);
+    border-radius: .25rem;
+    padding: .375rem .75rem;
+    display: inline-block;
+}
+.gramado-button:hover {
+    background-color: #0069d9;
+    text-decoration: none;
+}
+.gramado-button:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px lightskyblue;
+}
+.gramado-button:active {
+  background-color: #333;
+  border-color: #333;
+  color: #eee;
+}
+
 .gramado-footer {
     font-size: 0.8vw;
     text-align: center;
     color: #808080;
     padding-bottom: 2%;
 }
-}
 
+}
 
