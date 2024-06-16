@@ -12,13 +12,82 @@ html, body {
     text-transform: uppercase;
 }
 
-/* image */
+.image-container {
+    text-align: center;
+}
 .main-image {
+    width: 75%;
+    height: auto;
+}
+
+.main-button {
     text-align: center;
 }
 
-.main-text {
+/* main footer.*/
+.main-footer {
+    color: #C0C0C0;
+    text-align: center;
 }
+
+/* ------------------------------------ */
+
+/* MEDIA QUERY */
+
+/* small */
+@media (min-width: 200px) and (max-width: 1023px ) {
+
+.nav {
+    /*display: none;*/
+    /*max-height: none;*/
+    /*top: 0;*/
+    /*position: relative;*/
+    /*float: left;*/
+    width: fit-content;
+    background-color: transparent;
+    width: 100%;
+    text-align: center;
+}
+.nav ul {
+    width: 100%;
+    margin: 0;
+    text-align: center;
+}
+.nav li {
+    width: 100%;
+    display: block;
+    /*padding: 0 2%;*/
+    text-align: center;
+}
+.nav a {
+    color: #808080;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+    text-align: center;
+}
+.nav a:hover {
+    background-color: rgba(255, 255, 255, .7); /*white*/
+    text-align: center;
+}
+.main-nav {
+    font-size: 1.1em;
+    text-align: center;
+    border-top: 2px solid rgba(200, 200, 200, .3);
+    border-bottom: 2px solid rgba(200, 200, 200, .3);
+}
+
+
+
+.main-image {
+    width: 75%;
+    height: auto;
+}
+
+}
+
+/* large */
+@media (min-width: 1024px) {
 
 /* Navigation bar */
 .nav {
@@ -29,7 +98,7 @@ html, body {
 }
 .nav li {
     display: inline;
-    padding: 0 2%;
+    padding: 0 2%; /*distancia entre os items*/
 }
 .nav a {
     color: #808080;
@@ -38,8 +107,9 @@ html, body {
     display: inline-block;
 }
 .nav a:hover {
-    background-color: rgba(255, 255, 255, .3);
+    background-color: rgba(255, 255, 255, .7); /*White*/
 }
+/*??*/
 .main-nav {
     font-size: 1.1em;
     text-align: center;
@@ -47,14 +117,15 @@ html, body {
     border-bottom: 2px solid rgba(200, 200, 200, .3);
 }
 
-/**/
-.main-back-to-top{
-    font-size: 1.1em;
-    text-align: center;
+.main-image {
+    width: 50%;
+    height: auto;
 }
 
-/* main footer.*/
-.main-footer {
-    color: #C0C0C0;
-    text-align: center;
 }
+
+
+
+
+
+
