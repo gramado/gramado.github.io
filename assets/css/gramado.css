@@ -90,13 +90,14 @@ a:hover {
 }
 
 .gramado-header{
+    font-size: 2.0vw;
     text-align: center;
     text-transform: uppercase;
     color: #C0C0C0;
 }
 
 .gramado-text{
-    font-size: 2.0vw;
+    font-size: 1.9vw;
 }
 
 .gramado-image {
@@ -110,6 +111,7 @@ a:hover {
 
 .gramado-button {
     text-align: center;
+    font-size: 1.9vw;
     color: #fff;
     background-color: #007bff;
     border: 1px solid rgba(0, 0, 0, 0.1);
@@ -133,7 +135,7 @@ a:hover {
 }
 
 .gramado-footer {
-    font-size: 1.5vw;
+    font-size: 1.9vw;
     text-align: center;
     color: #808080;
     padding-bottom: 2%;
@@ -175,11 +177,11 @@ a:hover {
 }
 
 .gramado-header{
-    font-size: 1.0vw;
+    font-size: 2.0vw;
     color: #202020;
 }
 .gramado-text{
-    font-size: 0.9vw;
+    font-size: 1.9vw;
 }
 
 .gramado-image {
@@ -193,6 +195,7 @@ a:hover {
 
 .gramado-button {
     text-align: center;
+    font-size: 1.9vw;
     color: #fff;
     background-color: #007bff;
     border: 1px solid rgba(0, 0, 0, 0.1);
@@ -216,7 +219,7 @@ a:hover {
 }
 
 .gramado-footer {
-    font-size: 0.8vw;
+    font-size: 1.9vw;
     text-align: center;
     color: #808080;
     padding-bottom: 2%;
