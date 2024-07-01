@@ -59,7 +59,7 @@ a:hover {
 
 /* navigation bar for small screens */
 .gramado-nav {
-    font-size: 3.0vw;
+    font-size: 3.5vw;
     border-top: 2px solid rgba(88, 88, 88, .3);
     border-bottom: 2px solid rgba(129, 129, 129, .3);
 }
@@ -110,7 +110,7 @@ a:hover {
 
 .gramado-button {
     text-align: center;
-    font-size: 1.9vw;
+    font-size: 4.3vw;
     color: #fff;
     background-color: #007bff;
     border: 1px solid rgba(0, 0, 0, 0.1);
