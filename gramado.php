@@ -6,17 +6,18 @@
 
 <head>
 <meta charset="UTF-8">
-<meta 
-    name="viewport" 
-    content="width=device-width, initial-scale=1.0">
-<meta 
-    name="description" 
-    content="Gramado Organization">
-<meta 
-    name="author" 
-    content="Fred Nora">
-
 <title>Gramado</title>
+
+    <meta 
+        name="viewport" 
+        content="width=device-width, initial-scale=1.0">
+    <meta 
+        name="description" 
+        content="Gramado Organization">
+    <meta 
+        name="author" 
+        content="Fred Nora">
+
 <style>
             /*
             body {
@@ -60,9 +61,8 @@
 <!-- Prefetch -->
 <link rel="dns-prefetch" href="https://github.com/"/>
 
-<!-- Includes -->
+<!-- Cool links -->
 <link href="./assets/css/gramado.css" rel="stylesheet">
-
 </head>
 
 <body>
@@ -106,7 +106,7 @@
         <br/>
     </div>
 
-<!-- Cool scripts goes here! -->
+<!-- Cool scripts -->
 <script src="./assets/js/gramado.js"></script>
 </body>
 
