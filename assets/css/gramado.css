@@ -53,7 +53,7 @@ a:hover {
 
 
 /* 
- * Small screen:
+ * Small screen: ------------------------------
  * Mobile first?
  */
 
@@ -86,6 +86,7 @@ a:hover {
 
 .gramado-container {
     text-align: center;
+    font-size: 4.4vw;
 }
 
 .gramado-header{
@@ -94,6 +95,12 @@ a:hover {
     text-align: center;
     text-transform: uppercase;
 }
+.gramado-header-image {
+    text-align: center;
+    width: 11%;
+    height: auto;
+}
+
 
 .gramado-text{
     font-size: 2.9vw;
@@ -175,10 +182,21 @@ a:hover {
     background-color: rgba(200, 200, 200, .6); 
 }
 
+.gramado-container {
+    font-size: 4.4vw;
+    text-align: center;
+}
+
 .gramado-header{
     font-size: 2.0vw;
     color: #202020;
 }
+.gramado-header-image {
+    text-align: center;
+    width: 11%;
+    height: auto;
+}
+
 .gramado-text{
     font-size: 2.4vw;
     color: #202020;
