@@ -87,16 +87,19 @@
 
     <br>
     <?php
-        $files = scandir(getcwd());
-        foreach ($files as $file)
+        $cwd = getcwd();
+        $filename_list = scandir($cwd);
+        foreach ($filename_list as $filename)
         {
-            if ( is_dir($file) && ctype_alnum($file) )
+            /* Only directory names with alphanumeric elements */
+            if ( is_dir($filename) && 
+                 ctype_alnum($filename) )
             {
     ?>
 
                 <!-- Button -->
                 <br/>
-                <a href="/<?php echo $file; ?>/index.html"><?php echo $file; ?>/</a>
+                <a href="/<?php echo $filename; ?>/index.html"><?php echo $filename; ?>/</a>
 
     <?php
             }
