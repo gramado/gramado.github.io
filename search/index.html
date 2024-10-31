@@ -3,50 +3,74 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <title>About</title>
+<meta charset="UTF-8">
+<title>Search</title>
     <meta 
         name="viewport" 
         content="width=device-width; initial-scale=1.0">
     <meta 
         name="description" 
-        content="This is the place where You can find informations about this webpage.">
+        content="This is the place where You can find resources for this webpage.">
     <meta 
         name="author" 
         content="Fred Nora">
 
-<!-- Links -->
+<!-- Cool links -->
 <link href="../assets/css/gramado.css" rel="stylesheet">
 </head>
 
-<body>
+<body id="page-top" onload="gramadoInitialize()">
 
     <!-- Navigation bar -->
     <nav class="gramado-nav">
         <ul>
-            <!-- 1: Developer -->
-            <li><a href="#section-1">Developer</a></li>
-            <!-- 2: Business person -->
-            <li><a href="#section-2">Business</a></li>
-            <!-- 3: Sales person -->
-            <li><a href="#section-3">Online communication</a></li>
             <!-- 4: User -->
             <li><a href="#section-4">User</a></li>
+            <!-- 3: Sales person -->
+            <li><a href="#section-3">Online communication</a></li>
+            <!-- 2: Business person -->
+            <li><a href="#section-2">Business</a></li>
+            <!-- 1: Developer -->
+            <li><a href="#section-1">Developer</a></li>
         </ul>
     </nav>
 
+    <!-- Header -->
     <header class="gramado-header">
-        <h1>About Gramado Organization</h1>
-        <br>This is the place where You can find informations about the Gramado Organization.
+        <br>
+        <h1>Products</h1>
     </header>
 
-    <!-- section 1 -->
-    <section>
-        <div class="gramado-container">
-        <p>
-            <br>This organization is a portal for some projects.
-            <br>For now this organization has three main projects, Gramado OS, Mount tabor and Igapo.
-        </p>
+    <!-- Section 4 - User -->
+    <section id="section-4">
+        <div class="gramado-container gramado-text">
+        <br>Fred Nora Webpage:
+        <br><a href="gramado.github.io">gramado.github.io</a>
+        </div>   
+    </section>
+
+    <!-- Section 3 - Sales person -->
+    <section id="section-3">
+        <div class="gramado-container gramado-text">
+        <br>Gramado Webpage:
+        <br><a href="gramado.github.io">gramado.github.io</a>
+        </div>
+    </section>
+
+    <!-- Section 2 - Business person -->
+    <section id="section-2">
+        <div class="gramado-container gramado-text">
+        <br>Applications:
+        <br><a href="https://github.com/gramado/gramado">Gramado App</a>
+        </div>
+    </section>
+
+    <!-- Section 1 - Developer -->
+    <section id="section-1">
+        <div class="gramado-container gramado-text">
+        <br>Polar D8/Gramado OS:
+        <br><a href="https://github.com/polard8/kernel">Kernel</a>
+        <br><a href="https://github.com/polard8/de">Desktop Environment</a>
         </div>
     </section>
 
@@ -60,8 +84,8 @@
         </div>
     </footer>
 
-<!-- Scripts -->
-<script scr="../assets/js/gramado.js"></script>
+<!-- Cool scripts -->
+<script src="../assets/js/gramado.js"></script>
 </body>
 
 </html>
