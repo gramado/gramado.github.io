@@ -54,8 +54,8 @@ function gramadoHelloWorld(){
     return __gramado_status;
 }
 
-function gramadoVisitGramadoOnGithub(){
-    window.open("https://github.com/gramado");
+function gramadoVisitGrassD8OnGithub(){
+    window.open("https://github.com/grassd8");
 }
 
 // ---------------------------------------

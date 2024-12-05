@@ -6,14 +6,14 @@
 
 <head>
 <meta charset="UTF-8">
-<title>Gramado</title>
+<title>Grass D8</title>
 
     <meta 
         name="viewport" 
         content="width=device-width, initial-scale=1.0">
     <meta 
         name="description" 
-        content="Gramado Organization">
+        content="Grass D8 Organization">
     <meta 
         name="author" 
         content="Fred Nora">
