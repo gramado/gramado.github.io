@@ -69,7 +69,7 @@
 
     <div class="core">
     <!-- Header -->
-    <h1>Gramado Organization</h1>
+    <h1>Grass D8 Organization</h1>
 
     <br>
     <?php
@@ -94,7 +94,7 @@
         <br/>
         <a 
             class="button" 
-            href="https://github.com/gramado/gramado.github.io">
+            href="https://github.com/grassd8/grassd8.github.io">
             <img class="iconpos" 
                 width="20" 
                 height="20" 
